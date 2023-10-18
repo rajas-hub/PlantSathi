@@ -29,7 +29,7 @@
     box-shadow: 3px 3px 11px 1.5px #0000002b;
     font-family: Poppins;
     padding: 10px;
-    height: 550px;
+    height: 620px;
 
     display: grid;
     grid-template-columns: 50% 50%;
@@ -51,7 +51,7 @@ h1 {
 }
 
 .ImgContainer img{
-  height: 550px;
+  height: 600px;
   width: 400px;
 }
 
@@ -60,13 +60,6 @@ form {
     display: flex;
     flex-direction: column;
     padding: 10px;
-}
-
-.Name,
-.password {
-    display: grid;
-    grid-template-columns: repeat(2, 50%);
-
 }
 
 form li {
@@ -128,10 +121,6 @@ form select:hover {
     border: 1px solid var(--main-color);
 }
 
-form .Phone {
-    display: grid;
-    grid-template-columns: 35% 65%;
-}
 
 form select {
     width: 100%;
@@ -212,12 +201,40 @@ form button {
     width: fit-content;
     border-radius: 5px;
     padding: 10px 20px;
-    font-size: 1.1rem;
+    font-size: 2rem;
     color: white;
     background-color: var(--main-color);
     border: none;
     cursor: pointer;
-    margin: auto;
+    margin-top: 10px;
+    margin-left: 130px;
+}
+
+.continue button{
+    width: fit-content;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 1.1rem;
+    color: white;
+    background-color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-left: 130px;
+}
+
+.or{
+    font-size: 15px;
+    text-align: center;
+    padding: 10px 20px;
+}
+
+
+.continue{
+    display: flex;
+    gap: -10px;
+    margin-left: -100px;
+    justify-content: center;
 }
 
 @media (max-width:800px) {
