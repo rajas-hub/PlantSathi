@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Cart</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+    <link rel="stylesheet" href="Style.css">
+    <link rel="stylesheet" href="./cartDetails.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+</head>
+<body>
+    <!--Header section starts-->
+    <header>
+        </div>
+        <div class="header-2">
+            <a href="#" class="logo"><i class="fas fa-seedling"></i>Pla<span>nt</span>Sat<span>hi</span></a>
+            <form action="" class="serach-bar-container">
+                <input type="search" id="search-bar" placeholder="Search here...">
+                <label for="search-bar" class="fas fa-search"></label>
+
+            </form>
+        </div>
+        <div class="header-3">
+            <div id="menu-bar" class="fas fa-bars ">
+            </div>
+            <nav class="nav-bar">
+                <a href="#Home">Home</a>
+                <a href="#Product">Product</a>
+                <a href="#Plant Gallery">Plant Gallery</a>
+                <a href="#Contactus">Contact Us</a>
+                <a href="#Contactus">About Us</a>
+
+            </nav>
+            <div class="icons">
+                <a href="#" class="fas fa-shopping-cart" id="cart-btn"></a>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-user" id="login-btn"></a>
+            </div>
+            <!--cart container starts-->
+
+            <!--cart container  ends-->
+        </div>
+    </header>
+    <!--Header section ends-->
+
+    <!--Cart section starts -->
+    <section class="Cart-Details" id="myCart">
+        <div class="cartNameLogo">
+            <h2>My Cart</h2>
+            <i class="fas fa-shopping-cart fa-2x"></i>
+        </div>
+        <div class="actual-cart-details">
+            <div class="product-list">
+                <div class="cart-list-titles">
+                    <span class="Product">Product</span>
+                    <span class="Quantity">Quantity</span>
+                    <span class="Total">Total</span>
+                </div>
+                <div class="product1">
+                    <div class="image-container">
+                        <img src="./images/product2.jpg" width="100%" alt="plant image" />
+                    </div>
+                    <div class="name-and-price">
+                        <span style="color: darkgreen; font-weight: bold;">Plant Name</span>
+                        <span style="color: rgb(0, 228, 0);">$31.80</span>
+                    </div>
+                    <div class="quantity-and-remove">
+                        <div>
+                            <a href="#" class="plus-button">+</a>
+                            <span>1</span>
+                            <a href="#" class="minus-button">-</a>
+                        </div>
+                        <a href="#" class="remove-button">Remove</a>
+                    </div>
+                    <span id="final-price">$31.80</span>
+                </div>
+                <div class="product1">
+                    <div class="image-container">
+                        <img src="./images/product1.jpg" width="100%" alt="plant image" />
+                    </div>
+                    <div class="name-and-price">
+                        <span style="color: darkgreen; font-weight: bold;">Plant Name</span>
+                        <span style="color: rgb(0, 228, 0);">$14.70</span>
+                    </div>
+                    <div class="quantity-and-remove">
+                        <div>
+                            <a href="#" class="plus-button">+</a>
+                            <span>2</span>
+                            <a href="#" class="minus-button">-</a>
+                        </div>
+                        <a href="#" class="remove-button">Remove</a>
+                    </div>
+                    <span id="final-price">$29.40</span>
+                </div>
+                <div class="product1">
+                    <div class="image-container">
+                        <img src="./images/product3.jpg" width="100%" alt="plant image" />
+                    </div>
+                    <div class="name-and-price">
+                        <span style="color: darkgreen; font-weight: bold;">Plant Name</span>
+                        <span style="color: rgb(0, 228, 0);">$22.35</span>
+                    </div>
+                    <div class="quantity-and-remove">
+                        <div>
+                            <a href="#" class="plus-button">+</a>
+                            <span>1</span>
+                            <a href="#" class="minus-button">-</a>
+                        </div>
+                        <a href="#" class="remove-button">Remove</a>
+                    </div>
+                    <span id="final-price">$22.35</span>
+                </div>
+            </div>
+            <div class="payment-info">
+                <div class="total-amount">
+                    <span>Total Amount</span>
+                    <span style="color: rgb(94, 255, 0); font-weight: bold;">$83.55</span>
+                </div>
+                <div class="order-instruct">
+                    <span>Order Instructions:</span>
+                    <input type="text" placeholder="Enter the instructions" />
+                </div>
+                <div class="tax-and-ship">
+                    <span>Tax Included. Shipping is calculated at checkout</span>
+                </div>
+                <div class="shopping-buttons">
+                    <a href="#" class="checkout-button">CHECKOUT</a>
+                </div>
+                <div class="secure-message">
+                    <i class="fas fa-lock"></i>
+                    <span>100% Secure Payment</span>
+                </div>  
+            </div>
+        </div>
+    </section>
+
+    <!-- Cart section ends -->
+
+    <!-- footer section starts  -->
+    <section class="footer">
+
+        <div class="box-container">
+
+            <div class="box">
+                <h3>about us</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo hic eum veniam aut nisi. Libero autem
+                    nemo amet recusandae eveniet?</p>
+            </div>
+            <div class="box">
+                <h3>branch locations</h3>
+                <a href="#">Pune</a>
+                <a href="#">Kolhapur</a>
+                <a href="#">Nashik</a>
+                <a href="#">SambhajiNagar</a>
+                <a href="#">Mumbai</a>
+
+            </div>
+            <div class="box">
+                <h3>quick links</h3>
+                <a href="#Home">home</a>
+                <a href="#Product">product</a>
+                <a href="#Deal">Plant Gallery</a>
+                <a href="#Contact">contact Us</a>
+            </div>
+            <div class="box">
+                <h3>follow us</h3>
+                <a href="#">Facebook</a>
+                <a href="#">Twitter</a>
+                <a href="#">Instagram</a>
+                <a href="#">LinkedIN</a>
+            </div>
+
+        </div>
+
+        <h1 class="credit"> created by <span> T4 Batch Students</span> | all rights reserved! </h1>
+
+    </section>
+
+    <!-- footer section ends -->
+    <!-- scroll top button  -->
+    <a href="#Home" class="scroll-top fas fa-angle-up"></a>
+</body>
+</html>

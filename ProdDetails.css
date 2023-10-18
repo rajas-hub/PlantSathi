@@ -1,0 +1,244 @@
+#prodetails {
+    display: flex;
+}
+#prodetails .small-img-grp{
+    width: 7%;
+}
+.small-img-grp .small-img{
+    margin-bottom: 1rem;
+}
+#prodetails .big-pro-image{
+    margin-left: 1%;
+    width: 39%; 
+    padding-top: 39%;
+    position: relative;
+}
+#prodetails .big-pro-image img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+#prodetails .product-details{
+    width: 51%;
+    margin-left: 2%;
+    margin-top: 1%;
+}
+.small-img{
+    cursor: pointer;
+}
+.product-details hr{
+    border: 1px solid rgb(210, 210, 210);
+}
+.product-details h2{
+    font-size: 6rem;
+    color: darkgreen;
+}
+.product-details span{
+    font-size: 3rem;
+}
+.stars{
+    color: gold;
+    font-size: 1.5rem;
+}
+#Star-and-review{
+    margin-top: 1rem;
+    display: flex;
+    margin-bottom: 1rem;
+}
+#Star-and-review span{
+    margin-left: 1rem;
+    font-size: 2rem
+}
+.product-details .product-selection{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.product-selection .price-and-quantity{
+    display: flex;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.product-selection .quantity{
+    margin-left: auto;
+}
+.product-selection .quantity-select{
+    margin-right: 14rem;
+    margin-left: 1rem;
+    font-size: 3rem;
+}
+.product-selection .pot-size{
+    background-color: rgb(212, 255, 203);
+    border: 1px solid green;
+    border-radius: 10px;
+    font-size: 3rem;
+    padding: 2rem;
+    width: 10rem;
+    margin-right: 1rem;
+    margin-left: 1rem;
+}
+.product-selection .pot-size:hover{
+    background: rgb(178, 254, 163);
+}
+.product-selection .pot-size-flex{
+    display: flex;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.product-selection .shop-buttons{
+    font-size: 3rem;
+    padding: 2rem;
+    background-color: rgb(0, 137, 16);
+    border: 2px solid rgb(0, 62, 128);
+    border-radius: 25px;
+    margin-right: 1rem;
+    color: rgb(226, 255, 98);
+    font-weight: bold;
+}
+.product-selection .shop-buttons:hover{
+    background: #005711;
+}
+.product-selection .shopping-buttons{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    display: flex;
+}
+.product-selection a{
+    margin-right: 1rem;
+}
+.image-container img {
+    width: 100%; /* Make sure the image takes 100% width of the container */
+    height: 100%; /* Make sure the image takes 100% height of the container */
+    object-fit: cover; /* Ensure the image covers the container */
+    transition: transform 0.3s ease; /* Add smooth transition for zoom effect */
+}
+.image-container:hover img {
+    transform: scale(1.2); /* Zoom the image when hovering */
+}
+
+/* Product description review instruction */
+
+#descRev{
+    display: flex;
+}
+
+/* Product description */
+.descriptionReviews .product-description{
+    width: 47%;
+}
+.descriptionReviews .product-description h3{
+    font-size: 3rem;
+    color: green;
+}
+.descriptionReviews .product-description p{
+    font-size: 2rem;
+    text-align: justify;
+}
+.descriptionReviews .product-description #check{
+    display: none;
+}
+.descriptionReviews .product-description .read-more-content{
+    display: none;
+    transition: 0.5s linear;
+}
+.descriptionReviews .product-description label{
+    cursor: pointer;
+    text-decoration: underline;
+    font-size: 1.5rem;
+    float: right;
+    color: blue;
+}
+.descriptionReviews .product-description #check:checked ~ .read-more-content{
+    display:block;
+}
+.descriptionReviews .product-description #check:checked ~ #dropdown1{
+    display:none;
+}
+.descriptionReviews .product-description #check:checked ~ label{
+    display:none;
+}
+
+
+
+/* Instruction-Review */
+.descriptionReviews .instruction-review{
+    width: 50%;
+    margin-left: 3%;
+}
+/* Core Instructions */
+.descriptionReviews .instruction-review .instruction{
+    border: 2px solid green;    
+    padding: 1rem;
+    padding-bottom: 2.5rem;
+    border-radius: 25px;
+}
+.descriptionReviews .instruction-review h3{
+    font-size: 3rem;
+    color: green;
+}
+.descriptionReviews .instruction-review p{
+    font-size: 2rem;
+    text-align: justify;
+}
+.descriptionReviews .instruction-review .instruction #check2{
+    display: none;
+}
+.descriptionReviews .instruction-review .instruction #check2:checked ~ .read-more-content2{
+    display:block;
+}
+.descriptionReviews .instruction-review .instruction #check2:checked ~ #dropdown2{
+    display:none;
+}
+.descriptionReviews .instruction-review .instruction #check2:checked ~ label{
+    display:none;
+}
+.descriptionReviews .instruction-review .instruction .read-more-content2{
+    display: none;
+}
+.descriptionReviews .instruction-review .instruction label{
+    cursor: pointer;
+    float: right;
+    color: rgb(41, 230, 31);
+    margin-right: 0.5rem;
+}
+
+/* reviews */
+.descriptionReviews .instruction-review .review{
+    border: 2px solid green;    
+    padding: 1rem;
+    padding-bottom: 2.5rem;
+    border-radius: 25px;
+    margin-top: 2rem;
+}
+.descriptionReviews .instruction-review .review .review-info{
+    margin-top: 2rem;
+}
+.descriptionReviews .instruction-review .review .review-info .stars{
+    margin-bottom: 0.5rem;
+}
+.descriptionReviews .instruction-review .review .review-info span{
+    font-size: 2rem;
+    font-weight:bold;
+}
+#check3{
+    display: none;
+}
+.descriptionReviews .instruction-review .review #check3:checked ~ .read-more-content3{
+    display:block;
+}
+.descriptionReviews .instruction-review .review .read-more-content3{
+    display: none;
+}
+.descriptionReviews .instruction-review .review #check3:checked ~ label{
+    display:none;
+}
+.descriptionReviews .instruction-review .review #check3:checked ~ #dropdown3{
+    display:none;
+}
+.descriptionReviews .instruction-review .review label{
+    cursor: pointer;
+    float: right;
+    color: rgb(41, 230, 31);
+    margin-right: 0.5rem;
+}
