@@ -71,7 +71,7 @@ html {
 
 .header-1 span {
     font-weight: lighter;
-    color: #FF;
+    color: #FFF;
     font-size: 1.7rem;
 }
 
@@ -691,10 +691,6 @@ html {
     box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .3);
 }
 
-.contact .row .map {
-    width: 100%;
-    flex: 1 1 30rem;
-}
 
 .contact .row form {
     padding: 2rem;

@@ -7,7 +7,7 @@
     <title>PlantSathi</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
     <link rel="stylesheet" href="Style.css">
-    <link rel="stylesheet" href="syyle3.css">
+    <link rel="stylesheet" href="style2.css">
     <script src="./first.js"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
 </head>
@@ -27,18 +27,45 @@
             </form>
         </div>
         
+    
     <div id="FormContainer">
         <div class="ImgContainer">
-            <img src="images/plant2.png"/>
+            <img src="images/plant.jpg"/>
 
         </div>
-        <form id="Form" action="PlantDetailsLogin.html">
-            <h1 id="FormHeading">Sign In</h1>
+        <form id="Form" action="PlantDetails.html">
+            <h1 id="FormHeading">Register Here</h1>
+            <div class="Name">
+                <li><label>First Name:</label>
+                    <input type="text" placeholder="Atharva">
+                </li>
+                <li><label>Last Name:</label>
+                    <input type="text" placeholder="Pawar">
+                </li>
+            </div>
             <li>
                 <label>Email:</label>
                 <input type="email" placeholder="atharvapawar@gmail.com">
             </li>
             <div class="Phone">
+                <li><label>Country:</label>
+                    <select>
+
+
+                        <option>India</option>
+                        <option>Albania</option>
+                        <option>Algeria</option>
+                        <option>Andorra</option>
+                        <option>Angola</option>
+                        <option>Argentina</option>
+                        <option>Armenia</option>
+                        <option>Australia</option>
+                        <option>Austria</option>
+                        <option>Azerbaijan</option>
+                        <option>Croatia</option>
+
+                        <select>
+                <li>
                     <label>Phone No:</label><input type="pattern" placeholder="123-456-789">
                 </li>
             </div>
@@ -46,19 +73,16 @@
                 <li><label>Password:</label> <input type="password"></li>
                 <li><label>Confirm Password:</label> <input type="password"></li>
             </div>
-            <button type="submit">Sign In</button>
-
-            <span class="or">-----------------------OR Continue with---------------------</span>
-
-            <div class="continue">
-                <button type="submit"><img class="unique" height="40" width="70" src="images/Google-logo.png"/></button>
-                <button type="submit"><img class="unique" height="40" width="70" src="images/linkedin.png"/></button>
-            </div>
-
-            <div class="continue">
-                <button type="submit"><img class="unique" height="40" width="70" src="images/github.jpg"/></button>
-                <button type="submit"><img class="unique" height="40" width="70" src="images/facebook.png"></button>
-            </div>
+            <li class="Subscribe">
+                <div class="CheckBoxCont" onclick="ToggleCheckBox(this)" data-status="true">
+                    <div class="tick">
+                        <hr class="Tickline1">
+                        <hr class="Tickline2">
+                    </div>
+                </div><label for="subscribe">I accept all terms and conditions*</label>
+            </li>
+            <button type="submit">Register</button>
+            <a href="SignIn.html" class="already"> Already have an account? Log In...</a>
         </form>
 
     </div>
@@ -83,10 +107,10 @@
 
             </div>
             <div class="box">
+               
                 <h3>quick links</h3>
                 <a href="index.html">home</a>
                 <a href="PlantDetails.html">product</a>
-                
             </div>
             <div class="box">
                 <h3>follow us</h3>

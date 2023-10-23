@@ -1,0 +1,15 @@
+
+.containers {
+    background-color: #fff; /* Background color for the container */
+    padding: 100px; /* Adjust padding as needed */
+    margin: 20px; /* Adjust margin as needed */
+}
+
+/* Style to ensure the container takes up the remaining space */
+.containers {
+    position: absolute;
+    top: 80px; /* Adjust this value to match your header's height */
+    bottom: 200px;
+    left: 0;
+    right: 0;
+}

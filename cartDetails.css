@@ -28,13 +28,13 @@
     display: flex;
 }
 .Cart-Details .actual-cart-details .product-list .cart-list-titles .Product{
-    margin-left: 3rem;
+    margin-left: 5%;
 }
 .Cart-Details .actual-cart-details .product-list .cart-list-titles .Quantity{
-    margin-left: 33rem;
+    margin-left: 30%;
 }
 .Cart-Details .actual-cart-details .product-list .cart-list-titles .Total{
-    margin-left: 7.5rem;
+    margin-left: 10%;
 }
 
 /* product1 */
@@ -55,7 +55,7 @@
 }
 .Cart-Details .actual-cart-details .product-list .product1 .name-and-price{
     font-size: 3rem;
-    margin-left: 2rem;
+    margin-left: 2%;
     margin-top: 6rem;
     display: flex;
     flex-direction: column;
@@ -64,7 +64,7 @@
     display: flex;
     flex-direction: column;
     font-size: 2rem;
-    margin-left: 15rem;
+    margin-left: 11%;
     margin-top: 7.5rem;
 }
 .Cart-Details .actual-cart-details .product-list .product1 .quantity-and-remove span{
@@ -89,7 +89,7 @@
 }
 #final-price{
     font-size: 3rem;
-    margin-left: 11rem;
+    margin-left: 14%;
     margin-top: 8rem;
     font-weight: bold;
 }
@@ -102,6 +102,7 @@
     padding: 1.5rem;
     margin-top: 8rem;
     height: fit-content;
+    margin-left: 1rem;
 }
 .Cart-Details .actual-cart-details .payment-info .total-amount{
     font-size: 4rem;
